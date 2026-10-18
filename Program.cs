@@ -12,5 +12,22 @@ Console.WriteLine($"Imię (string): {imie}");
 Console.WriteLine($"Symbol (char): {symbol}");
 Console.WriteLine($"Poziom (int): {poziom}");
 Console.WriteLine($"Złoto (int): {zloto}");
-Console.WriteLine($"Waga (double): {waga}");
+Console.WriteLine($"Waga (double): {waga} kg");
 Console.WriteLine($"Ma mapę (bool): {mapa}");
+
+//zad 2
+
+int pktPoczatek = 40;
+int zlotoPoczatek = 20;
+int ileTreningów = 0;
+
+int pktKoniec = pktPoczatek + 25;
+pktKoniec *= 2;
+int zlotoKoniec = zlotoPoczatek - 8;
+zlotoKoniec += 15;
+
+Console.WriteLine($"Na Poczatek doswiadczenia: {pktPoczatek}");
+Console.WriteLine($"Na koniec doświadczenia: {pktKoniec}");
+Console.WriteLine($"Na poczatek złota: {zlotoPoczatek}");
+Console.WriteLine($"Na koniec złota: {zlotoKoniec}");
+
