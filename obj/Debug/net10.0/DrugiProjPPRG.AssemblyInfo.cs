@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DrugiProjPPRG")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f53a1586c450effc8b44cc68b68638eb636fd00d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4420837ec76fc821ff439d06378b6e1e55c4023")]
 [assembly: System.Reflection.AssemblyProductAttribute("DrugiProjPPRG")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DrugiProjPPRG")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

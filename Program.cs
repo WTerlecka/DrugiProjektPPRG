@@ -31,3 +31,23 @@ Console.WriteLine($"Na koniec doświadczenia: {pktKoniec}");
 Console.WriteLine($"Na poczatek złota: {zlotoPoczatek}");
 Console.WriteLine($"Na koniec złota: {zlotoKoniec}");
 
+//zad 3
+
+Console.Write("Racje: ");
+decimal racje = decimal.Parse(Console.ReadLine()!);
+
+Console.Write("Ile w drużynie: ");
+decimal druzyna = decimal.Parse(Console.ReadLine()!);
+
+Console.Write("Ile dni wyprawy: ");
+decimal dniWyprawy = decimal.Parse(Console.ReadLine()!);
+
+decimal ileRacji = racje / druzyna;
+decimal ileZostanie = racje % druzyna;
+decimal ileDruzyna = racje / dniWyprawy;
+decimal ileOsoba = racje / (dniWyprawy * druzyna);
+
+Console.WriteLine($"Racje na osobe: {ileRacji}");
+Console.WriteLine($"Ile zostanie: {ileZostanie}");
+Console.WriteLine($"Ile dziennie na drużyne: {ileDruzyna}");
+Console.WriteLine($"Ile dziennie na osobe {ileOsoba}");
