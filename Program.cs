@@ -118,3 +118,29 @@ switch (kierunek)
         break;
 }
 
+//zad 7
+
+Console.Write("Podaj swój wiek: ");
+int wiek2 = int.Parse(Console.ReadLine()!);
+ 
+ if(wiek2 < 0)
+{
+    Console.WriteLine("Niepoprawny wiek\n");
+}
+else if(wiek2 >= 0 && wiek2 <= 13)
+{
+    Console.WriteLine("Dziecko");
+}
+else if(wiek2 >= 13 && wiek2 <= 17)
+{
+    Console.WriteLine("Nastolatek");
+}
+else if(wiek2 >= 18 && wiek2 <= 64)
+{
+    Console.WriteLine("Osoba dorosła");
+}
+else if(wiek2 >= 65)
+{
+    Console.WriteLine("Senior");
+}
+
