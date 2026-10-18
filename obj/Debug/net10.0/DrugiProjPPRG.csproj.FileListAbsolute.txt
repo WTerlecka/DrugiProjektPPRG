@@ -1,0 +1,15 @@
+C:\Users\s37402\Desktop\Projects Warp\DrugiProjPPRG\DrugiProjPPRG\obj\Debug\net10.0\DrugiProjPPRG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s37402\Desktop\Projects Warp\DrugiProjPPRG\DrugiProjPPRG\obj\Debug\net10.0\DrugiProjPPRG.AssemblyInfoInputs.cache
+C:\Users\s37402\Desktop\Projects Warp\DrugiProjPPRG\DrugiProjPPRG\obj\Debug\net10.0\DrugiProjPPRG.AssemblyInfo.cs
+C:\Users\s37402\Desktop\Projects Warp\DrugiProjPPRG\DrugiProjPPRG\obj\Debug\net10.0\DrugiProjPPRG.csproj.CoreCompileInputs.cache
+C:\Users\s37402\Desktop\Projects Warp\DrugiProjPPRG\DrugiProjPPRG\obj\Debug\net10.0\DrugiProjPPRG.sourcelink.json
+C:\Users\s37402\Desktop\Projects Warp\DrugiProjPPRG\DrugiProjPPRG\bin\Debug\net10.0\DrugiProjPPRG.exe
+C:\Users\s37402\Desktop\Projects Warp\DrugiProjPPRG\DrugiProjPPRG\bin\Debug\net10.0\DrugiProjPPRG.deps.json
+C:\Users\s37402\Desktop\Projects Warp\DrugiProjPPRG\DrugiProjPPRG\bin\Debug\net10.0\DrugiProjPPRG.runtimeconfig.json
+C:\Users\s37402\Desktop\Projects Warp\DrugiProjPPRG\DrugiProjPPRG\bin\Debug\net10.0\DrugiProjPPRG.dll
+C:\Users\s37402\Desktop\Projects Warp\DrugiProjPPRG\DrugiProjPPRG\bin\Debug\net10.0\DrugiProjPPRG.pdb
+C:\Users\s37402\Desktop\Projects Warp\DrugiProjPPRG\DrugiProjPPRG\obj\Debug\net10.0\DrugiProjPPRG.dll
+C:\Users\s37402\Desktop\Projects Warp\DrugiProjPPRG\DrugiProjPPRG\obj\Debug\net10.0\refint\DrugiProjPPRG.dll
+C:\Users\s37402\Desktop\Projects Warp\DrugiProjPPRG\DrugiProjPPRG\obj\Debug\net10.0\DrugiProjPPRG.pdb
+C:\Users\s37402\Desktop\Projects Warp\DrugiProjPPRG\DrugiProjPPRG\obj\Debug\net10.0\DrugiProjPPRG.genruntimeconfig.cache
+C:\Users\s37402\Desktop\Projects Warp\DrugiProjPPRG\DrugiProjPPRG\obj\Debug\net10.0\ref\DrugiProjPPRG.dll
