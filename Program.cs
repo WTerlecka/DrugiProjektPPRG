@@ -19,10 +19,9 @@ Console.WriteLine($"Ma mapę (bool): {mapa}\n");
 
 int pktPoczatek = 40;
 int zlotoPoczatek = 20;
-int ileTreningów = 0;
 
 int pktKoniec = pktPoczatek + 25;
-pktKoniec *= 2;
+pktKoniec *= 2
 int zlotoKoniec = zlotoPoczatek - 8;
 zlotoKoniec += 15;
 
@@ -45,7 +44,7 @@ decimal dniWyprawy = decimal.Parse(Console.ReadLine()!);
 decimal ileRacji = racje / druzyna;
 decimal ileZostanie = racje % druzyna;
 decimal ileDruzyna = racje / dniWyprawy;
-decimal ileOsoba = racje / (dniWyprawy * druzyna);
+decimal ileOsoba = ileDruzyna / druzyna;
 
 Console.WriteLine($"Racje na osobe: {ileRacji}");
 Console.WriteLine($"Ile zostanie: {ileZostanie}");
@@ -127,20 +126,43 @@ int wiek2 = int.Parse(Console.ReadLine()!);
 {
     Console.WriteLine("Niepoprawny wiek\n");
 }
-else if(wiek2 >= 0 && wiek2 <= 13)
+else if(wiek2 > 0 && wiek2 <= 12)
 {
-    Console.WriteLine("Dziecko");
+    Console.WriteLine("Dziecko\n");
 }
 else if(wiek2 >= 13 && wiek2 <= 17)
 {
-    Console.WriteLine("Nastolatek");
+    Console.WriteLine("Nastolatek\n");
 }
 else if(wiek2 >= 18 && wiek2 <= 64)
 {
-    Console.WriteLine("Osoba dorosła");
+    Console.WriteLine("Osoba dorosła\n");
 }
 else if(wiek2 >= 65)
 {
-    Console.WriteLine("Senior");
+    Console.WriteLine("Senio\n");
 }
 
+//zad 8
+
+Console.Write("Ile punktów życia: ");
+int pktZyc = int.Parse(Console.ReadLine()!);
+
+Console.Write("Czy masz klucz: ");
+bool czyKlucz = bool.Parse(Console.ReadLine()!);
+
+Console.Write("Czy znasz hasło: ");
+bool czyHaslo = bool.Parse(Console.ReadLine()!);
+
+if (pktZyc <= 0)
+{
+    Console.WriteLine("Nie możesz wejść bo nie żyjesz");
+}
+else if(pktZyc > 0 && (czyKlucz == true || czyHaslo == true))
+{
+    Console.WriteLine("Możesz wejść");
+}
+else
+{
+    Console.WriteLine("Nie masz jak wejść");
+}
