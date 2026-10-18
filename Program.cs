@@ -80,3 +80,17 @@ Console.WriteLine($"Ma zaopatrzenie: {maZaopatrzenie}");
 Console.WriteLine($"Ma klucz lub mapę: {maPrzedmiotNawigacyjny}");
 Console.WriteLine($"Gotowy do wyprawy: {gotowyDoWyprawy}\n");
 
+//zad 5
+
+Console.Write("Podaj liczbe: ");
+int czyParzysta = int.Parse(Console.ReadLine()!);
+
+if (czyParzysta % 2 == 0)
+{
+    Console.WriteLine("Jest parzysta\n");
+}
+else
+{
+    Console.WriteLine("Jest nieparzysta\n");
+}
+
