@@ -13,7 +13,7 @@ Console.WriteLine($"Symbol (char): {symbol}");
 Console.WriteLine($"Poziom (int): {poziom}");
 Console.WriteLine($"Złoto (int): {zloto}");
 Console.WriteLine($"Waga (double): {waga} kg");
-Console.WriteLine($"Ma mapę (bool): {mapa}");
+Console.WriteLine($"Ma mapę (bool): {mapa}\n");
 
 //zad 2
 
@@ -29,7 +29,7 @@ zlotoKoniec += 15;
 Console.WriteLine($"Na Poczatek doswiadczenia: {pktPoczatek}");
 Console.WriteLine($"Na koniec doświadczenia: {pktKoniec}");
 Console.WriteLine($"Na poczatek złota: {zlotoPoczatek}");
-Console.WriteLine($"Na koniec złota: {zlotoKoniec}");
+Console.WriteLine($"Na koniec złota: {zlotoKoniec}\n");
 
 //zad 3
 
@@ -50,4 +50,33 @@ decimal ileOsoba = racje / (dniWyprawy * druzyna);
 Console.WriteLine($"Racje na osobe: {ileRacji}");
 Console.WriteLine($"Ile zostanie: {ileZostanie}");
 Console.WriteLine($"Ile dziennie na drużyne: {ileDruzyna}");
-Console.WriteLine($"Ile dziennie na osobe {ileOsoba}");
+Console.WriteLine($"Ile dziennie na osobe {ileOsoba}\n");
+
+//zad 4
+
+Console.Write("Ile punktów życia: ");
+int pktZycia = int.Parse(Console.ReadLine()!);
+
+Console.Write("Ile mikstur: ");
+int lbMikstur = int.Parse(Console.ReadLine()!);
+
+Console.Write("Czy masz klucz: ");
+bool klucz = bool.Parse(Console.ReadLine()!);
+
+Console.Write("Czy masz mape: ");
+bool czyMapa = bool.Parse(Console.ReadLine()!);
+
+bool zyje = pktZycia > 0;
+bool maPelneZdrowie = pktZycia == 100;
+bool wymagaLeczenia = !maPelneZdrowie;
+bool maZaopatrzenie = lbMikstur >= 1;
+bool maPrzedmiotNawigacyjny = klucz || czyMapa;
+bool gotowyDoWyprawy = zyje && maZaopatrzenie && maPrzedmiotNawigacyjny;
+
+Console.WriteLine($"Żyje: {zyje}");
+Console.WriteLine($"Ma pełne zdrowie: {maPelneZdrowie}");
+Console.WriteLine($"Wymaga leczenia: {wymagaLeczenia}");
+Console.WriteLine($"Ma zaopatrzenie: {maZaopatrzenie}");
+Console.WriteLine($"Ma klucz lub mapę: {maPrzedmiotNawigacyjny}");
+Console.WriteLine($"Gotowy do wyprawy: {gotowyDoWyprawy}\n");
+
