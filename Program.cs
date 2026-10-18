@@ -94,3 +94,27 @@ else
     Console.WriteLine("Jest nieparzysta\n");
 }
 
+//zad 6
+
+Console.Write("Podaj jednym słowem kierunek swojej wyprawy(północ, południe, wschód albo zachód): ");
+string kierunek = Console.ReadLine()!;
+
+switch (kierunek)
+{
+    case "północ":
+        Console.WriteLine("Idziesz w stronę gór.\n");
+        break;
+    case "południe":
+        Console.WriteLine("Idziesz w stronę pustyni.\n");
+        break;
+    case "wschód":
+        Console.WriteLine("Idziesz w stronę lasu.\n");
+        break;
+    case "zachód":
+        Console.WriteLine("Idziesz w stronę morza.\n");
+        break;
+    default:
+        Console.WriteLine("Nieznany kierunek.\n");
+        break;
+}
+
